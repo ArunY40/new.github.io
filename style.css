@@ -1,0 +1,94 @@
+*{
+	MARGIN:0;
+	PADDING:0;
+}
+header{
+	   background-image:url(book.jpg);
+	   height:100vh;
+	   background-size:no repeat;
+	   background-position:center;
+	   background-size:cover;
+}
+	   .main-nav{
+		          margin-top: 25px;
+		         float:right;
+				 list-style:none:
+			  
+	  }
+.main-nav li{
+	          display:inline-block;
+}
+.main-nav li a{
+                color:white;
+                 text-decoration:none;
+                padding:5px 25px;
+				font-size:20px;
+}
+ .main-nav li.active a{
+	                   border:1px solid white;
+ }
+ .main-nav li.border a{
+	                   border:1px solid green;
+					   background-image: linear-gradient(green, yellow);
+ }
+ 
+.main-nav li.border a:HOVER{
+                            background-image:linear-gradient(red, yellow, green);
+}
+ .main-nav li a:hover{
+	                    border: 0.5px solid;
+						background-color:red;
+ }
+ hero{
+	 position:absolute;
+	 width:1200px;
+	 margin-left:o;
+	 margin-top:0;
+ }
+ h1{
+	 color:white;
+	 text-transform:uppercase;
+	 font-size:40px;
+	 text-align:center;
+	 margin-top:179px;
+ }
+ p{
+	 margin-top:20px;
+	 margin-left:450px;
+	 font-size:20px;
+	 color:blue;
+	 text-transform:uppercase
+ }
+.one{
+	width:150px;
+	height:60px;
+	margin-top:12px;
+	margin-left:600px;
+	background-image: linear-gradient(blue,white);
+	font-size:21px;
+	color:red;
+	border-radius:19px;
+	}
+	.one:hover{
+		       background-image: linear-gradient(white,pink);
+	}
+    .one a{
+	       text-decoration:none;
+	}
+.LOGO{
+	margin-left:10px;
+}
+	
+	
+
+ marquee{
+      font-size: 30px;
+      font-weight: 800;
+      color:blue;
+ }
+ .zoom{
+	 transition:transform;
+ }
+ .zoom:hover{
+           transform:scale(1.2)	
+}		   
